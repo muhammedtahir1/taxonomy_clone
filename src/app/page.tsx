@@ -4,6 +4,7 @@ import Hero from "@/components/landingPage/Hero";
 import Navbar from "@/components/landingPage/Navbar";
 import Section from "@/components/landingPage/Section";
 
+
 export default function Home(){
   return(
     <div className="h-screen w-full">
@@ -12,6 +13,7 @@ export default function Home(){
       <Features/>
       <Section/>
       <Footer/>
+
     </div>
   )
 }
